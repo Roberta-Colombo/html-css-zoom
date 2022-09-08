@@ -21,14 +21,14 @@ body {
 
 header {
     background-color: #000000;
-    height: 40px;
+    height: 30px;
     color: white;
     padding-top: 10px;
 }
 
 .btn {
     height: 30px;
-    font-size: 13px;
+    font-size: 12px;
     border-style: none;
     background-color: #4A4A4A;  
     color: white;
@@ -50,24 +50,24 @@ main {
 }
 
 .grid {
- max-width: 90vw;
+ max-width: 95vw;
  margin: 0 auto;
- border: 1px solid green;
- padding-top: 50px;
+ /* border: 1px solid green; */
+ padding-top: 40px;
 }
 
 .speaker-window {
-    width: calc((100vw - 10px) / 8);
+    width: calc((95vw - 30px) / 7);
     height: 150px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-right: 5px;
     margin-bottom: 10px;
 }
 
 .flexbox1 {
     display: flex;
-    flex-flow: row;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     align-items: flex-start;
 }
 
@@ -75,9 +75,13 @@ main {
     margin-right: 0;
 }
 
+.speaker-window.first {
+    margin-left: 0;
+}
+
 /* Style footer  */
 
 footer {
-    height: 80px;
+    height: 65px;
     background-color: #222222;
 }

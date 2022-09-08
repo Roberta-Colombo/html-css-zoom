@@ -50,15 +50,29 @@ main {
 }
 
 .grid {
- max-width: 90%;
+ max-width: 90vw;
  margin: 0 auto;
  border: 1px solid green;
+ padding-top: 50px;
 }
 
 .speaker-window {
-    width: calc(100% / 7);
+    width: calc((100vw - 10px) / 8);
     height: 150px;
     border: 1px solid red;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.flexbox1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.speaker-window.last {
+    margin-right: 0;
 }
 
 /* Style footer  */

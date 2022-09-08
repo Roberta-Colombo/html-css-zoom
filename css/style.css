@@ -1,0 +1,44 @@
+/* Utility */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style header */
+
+.flexbox {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+header {
+    background-color: #000000;
+    height: 80px;
+    color: white;
+    padding-top: 10px;
+}
+
+.btn {
+    height: 30px;
+    font-size: 13px;
+    border-style: none;
+    background-color: #4A4A4A;  
+    color: white;
+    text-decoration: none;
+    padding: 5px 4px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.maximize-view.btn {
+    padding: 5px 6px;
+    margin: 0 10px;
+}
